@@ -1,0 +1,30 @@
+.SubtitulosConocenos{
+    padding: 5px;
+    margin: 5px;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.ParrafosConocenos{
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    font-size: large;
+    text-align: center;
+}
+
+.ImagenesConocenos{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.PrimerMc{
+    padding: 15px;
+    margin: 5px;
+    transition: all 6s;
+}
+.PrimerMc:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,7 @@
+#contenedor{
+    display: grid;
+    grid-template-columns: AUTO AUTO AUTO;
+    grid-template-rows: AUTO AUTO AUTO;
+    grid-column-gap: 0px;
+    grid-row-gap: 3px;
+}

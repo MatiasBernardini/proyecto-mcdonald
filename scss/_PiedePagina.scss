@@ -1,0 +1,36 @@
+#PiedePagina{
+    grid-column: 1/4;
+    background: rgb(255,255,255);
+    background-image: url( ../logo/logo-arcosdorados.png );
+    height: 170px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    text-align: center;
+
+    .redes{
+        padding: 15px;
+        margin: 15px;
+        transition: all 4s;
+    
+        .instagram{
+            font-size: 50px;
+            color: $coloNegro;
+            &:hover{
+                transform: scale(1.1);
+                color: $colorNegro2;
+            }
+        }
+
+        .facebook{
+            font-size: 50px;
+            color: $coloNegro;
+            &:hover{
+                transform: scale(1.1);
+                color:  $colorNegro2;
+            }
+        }
+
+    }
+}
