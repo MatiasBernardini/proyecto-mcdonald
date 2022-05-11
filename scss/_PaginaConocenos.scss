@@ -1,8 +1,8 @@
 .SubtitulosConocenos{
-    padding: 5px;
-    margin: 5px;
-    font-size: 23px;
-    text-decoration: underline;
+    padding: map-get($subtitulosConocenos , relleno );
+    margin: map-get($subtitulosConocenos , margen);
+    font-size: map-get($subtitulosConocenos , envoltura);
+    text-decoration: map-get($subtitulosConocenos , decoracionTexto);
 }
 
 .ParrafosConocenos{

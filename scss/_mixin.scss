@@ -3,3 +3,10 @@
     flex-wrap: $wrap;
     justify-content: $justificadoContenido;
 }
+
+$subtitulosConocenos:(
+    relleno:5px,
+    margen: 5px,
+    envoltura: 23px,
+    decoracionTexto: underline,
+)
