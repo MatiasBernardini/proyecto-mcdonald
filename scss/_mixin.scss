@@ -1,0 +1,5 @@
+@mixin FlexPropiedades ($wrap, $justificadoContenido) {
+    display: flex;
+    flex-wrap: $wrap;
+    justify-content: $justificadoContenido;
+}

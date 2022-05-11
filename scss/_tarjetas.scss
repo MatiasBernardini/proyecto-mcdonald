@@ -1,0 +1,23 @@
+.ofertas{
+    padding: 20px;
+    @include FlexPropiedades (wrap, space-between);
+    transition: all 3s;
+
+    .Oferta1{
+        width: 200px;
+        height: 300px;
+        background-color: $colorBlanco;
+        text-align: center;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 2px 5px 9px 3px rgba(0,0,0,0.65);
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    button{
+        @extend .botones; 
+    }
+}
