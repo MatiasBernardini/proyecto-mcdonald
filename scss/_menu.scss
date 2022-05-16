@@ -4,6 +4,12 @@
     font-style: italic;
     background-color:$colorGris;
 
+    .bg-carrusel{
+        background-color: rgba(0, 0, 0, 0.384);
+        border-radius: 5px;
+        width: auto;
+    }
+
     .titulo{
         font-size: 40px;
         text-align: center;

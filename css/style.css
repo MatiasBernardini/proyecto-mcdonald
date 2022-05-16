@@ -104,6 +104,12 @@
   background-color: #e3e3e3;
 }
 
+#menu .bg-carrusel {
+  background-color: rgba(0, 0, 0, 0.384);
+  border-radius: 5px;
+  width: auto;
+}
+
 #menu .titulo {
   font-size: 40px;
   text-align: center;
