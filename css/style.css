@@ -263,5 +263,8 @@
     background: radial-gradient(circle, white 0%, #a2a2a2 100%);
     background-repeat: no-repeat;
   }
+  .form-control {
+    width: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
