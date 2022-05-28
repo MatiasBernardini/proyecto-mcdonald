@@ -137,6 +137,10 @@
           align-items: center;
 }
 
+#menu ul {
+  list-style-type: none;
+}
+
 #PiedePagina {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
