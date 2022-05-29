@@ -249,8 +249,14 @@
   #menu .ImagenesConocenos .PrimerMc {
     width: 320px;
   }
-  #menu .mapa {
-    width: 280px;
+  #menu ul {
+    padding-left: 10px;
+  }
+  #menu ul li {
+    margin-bottom: 10px;
+  }
+  #menu ul .mapa {
+    width: 170px;
   }
   #PiedePagina {
     background: radial-gradient(circle, white 0%, #a2a2a2 100%);
