@@ -257,6 +257,7 @@
   }
   #menu ul .mapa {
     width: 170px;
+    height: 200px;
   }
   #PiedePagina {
     background: radial-gradient(circle, white 0%, #a2a2a2 100%);
